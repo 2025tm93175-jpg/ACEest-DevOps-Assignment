@@ -32,6 +32,7 @@ def home():
 @app.route("/health")
 def health():
     return jsonify({
+        "application": "ACEest Fitness & Gym",
         "status": "healthy"
     })
 
